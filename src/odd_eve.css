@@ -1,0 +1,168 @@
+
+body
+{
+
+  background-image: url("mcg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height:100%;
+}
+
+/* h1
+{
+  position: absolute;
+  font-size: 30px;
+  left: 740px;
+  top: 20px;
+} */
+#one
+{
+  position: absolute;
+  background-color: #2fa84f;
+  border-radius: 20px;
+  font-size: 80px;
+  width: 100px;
+  height: 100px;
+  left: 250px;
+  top: 270px;
+}
+#two
+{
+  position: absolute;
+  background-color: #2fa84f;
+  border-radius: 20px;
+  font-size: 80px;
+  width: 100px;
+  height: 100px;
+  left: 750px;
+  top: 270px;
+}
+#three
+{
+  position: absolute;
+  background-color: #2fa84f;
+  border-radius: 20px;
+  font-size: 80px;
+  width: 100px;
+  height: 100px;
+  left: 1250px;
+  top: 270px;
+}
+
+#six
+{
+  position: absolute;
+  background-color: #2fa84f;
+  border-radius: 20px;
+  font-size: 80px;
+  width: 100px;
+  height: 100px;
+  left: 1250px;
+  top: 470px;
+}
+
+
+#five
+{
+  position: absolute;
+  background-color: #2fa84f;
+  border-radius: 20px;
+  font-size: 80px;
+  width: 100px;
+  height: 100px;
+  left: 750px;
+  top: 470px;
+}
+
+
+#four
+{
+  position: absolute;
+  background-color: #2fa84f;
+  border-radius: 20px;
+  font-size: 80px;
+  width: 100px;
+  height: 100px;
+  left: 250px;
+  top: 470px;
+}
+
+
+
+
+
+#score
+{
+  font-size: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #0f022b;
+}
+
+#scoredigits
+{
+  font-size: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#compname
+{
+  font-size: 50px;
+  position: absolute;
+  font-family: "Lucida Console", "Courier New", monospace;
+  left: 1250px;
+  top: 10px;
+
+}
+
+#comp
+{
+  font-size: 50px;
+  position: absolute;
+  font-family: "Lucida Console", "Courier New", monospace;
+  left: 1350px;
+  top: 100px;
+}
+
+#current
+{
+position: absolute;
+background-color: black;
+color: yellow;
+font-size: 60px;
+text-shadow: 2px 2px #0f022b;
+font-family: Helvetica, Arial, sans-serif;
+left: 600px;
+top: 30px;
+}
+
+
+#dismiss
+{
+  position: absolute;
+  background-color: #0f022b;
+  font-family: "Lucida Console", "Courier New", monospace;
+  left: 750px;
+  font-size: 50px;
+  color: white;
+  top: 570px;
+}
+
+#dismiss2
+{
+  position: absolute;
+  /*font-family: "Lucida Console", "Courier New", monospace; */
+  font-family: Stencil Std, fantasy;
+
+  left: 1220px;
+  font-size: 50px;
+  color: #380306;
+
+  top: 570px;
+
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
